@@ -1,0 +1,22 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets and runtime data
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+
+# Local editor settings and legacy backups
+.vscode/
+legacy/
